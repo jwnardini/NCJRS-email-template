@@ -1,0 +1,203 @@
+//fonts
+
+p, h1, h2, h3, h4, h5, a {
+  margin: 0;
+  font-family: 'Arial';
+}
+
+p {
+  font-size: 15px;
+  color: #646b76;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 39px;
+  color: #0e3150;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #0e3150;
+  padding: 8px 0px;
+}
+
+hr {
+  width: 458px;
+  border-color: #dddddd;
+}
+
+.grey-miniheader {
+  font-weight: bold;
+  font-size: 12px;
+  color: #8e99a8;
+}
+
+.link-more {
+  font-size: 15px;
+  color: #1680c8;
+  padding: 12px 0px;
+}
+
+.link-more a {
+  font-weight: bold;
+}
+
+.link-underlined {
+  font-size: 15px;
+  color: #0e3150;
+}
+
+.link-underlined a {
+  font-weight: bold;
+}
+
+.link-more a {
+  color: #1482c7;
+}
+
+.grey-miniheader {
+  text-transform:uppercase;
+  color: grey;
+}
+
+.link-underlined a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+//Containers
+
+.wrapper, .container {
+  width: 580px;
+}
+
+.social-links .container,
+.campus-safety .container,
+.q-and-a .container,
+.additional-resources .container,
+.events .container {
+  background: #ffffff;
+  padding: 0px 20px;
+}
+
+.subfooter .container {
+  background: #f5f5f5;
+}
+
+.footer .container {
+  background: #005799;
+}
+
+.skinny td{
+  padding: 0px 60px;
+}
+
+.footer .skinny td {
+  padding: 0px 10px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+////////////////////////SECTIONS
+
+//Social links
+.social-links td p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #434343;
+}
+
+.social-links td {
+  padding: 0px 8px;
+}
+
+//Click Here
+.view-in-browser, .view-in-browser .container {
+  background: #e4e7ee;
+}
+
+p.click-here {
+  margin: 0;
+  padding: 8px 0px;
+}
+
+.click-here-header a {
+  color: #646b76;
+  text-decoration: underline;
+}
+
+//Social links {
+.social-links td {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+//Q&A
+.q-and-a .link-underlined {
+  padding: 0px 0px 12px 0px;
+}
+
+td.q-and-a-cell {
+  padding: 0px;
+}
+
+
+//Additional resources
+.additional-resources .link-underlined {
+  padding: 16px 0px 4px 0px;
+}
+
+.additional-resources .link-more {
+  padding: 24px 0px;
+}
+
+//Events
+.events h2 {
+  padding-bottom: 18px;
+}
+
+.date-time {
+  padding-bottom: 24px;
+}
+
+.events .link-more {
+  padding-top: 0px;
+}
+
+//Subfooter
+
+.subfooter img {
+  padding-bottom: 16px;
+}
+.subfooter-title {
+  color: #41464d;
+  padding-top: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subfooter-links a {
+  color: #646b76;
+  text-decoration: underline;
+}
+
+//Footer
+
+.footer p {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 0px 0px 10px 48px;
+}
+
+.footer hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2971a9;
+  padding: 0px 0px 10px 0px;;
+}
